@@ -1,0 +1,118 @@
+
+
+  .meme-generator {
+    text-align: center;
+    padding: 20px;
+}
+
+.generate-meme-btn {
+    background-color: #4CAF50; 
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container fit the button */
+    font-size: 16px; /* Increase font size */
+    margin: 10px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.generate-meme-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+.generate-meme-btn:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    transform: scale(1.05); /* Slightly decrease size when clicked */
+}
+
+.meme-title {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.meme-author {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .generate-meme-btn {
+        padding: 12px 24px; /* Smaller padding on smaller screens */
+        font-size: 14px; /* Smaller font size on smaller screens */
+    }
+
+    .meme-title {
+        font-size: 20px; /* Smaller title font size on smaller screens */
+    }
+
+    .meme-author {
+        font-size: 16px; /* Smaller author font size on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .generate-meme-btn {
+        padding: 10px 20px; /* Even smaller padding on very small screens */
+        font-size: 12px; /* Even smaller font size on very small screens */
+    }
+
+    .meme-title {
+        font-size: 18px; /* Smaller title font size on very small screens */
+    }
+
+    .meme-author {
+        font-size: 14px; /* Smaller author font size on very small screens */
+    }
+}
+
+/* Basic styling for the footer */
+.footer {
+    background-color: #333;  /* Dark background color */
+    color: #fff;  /* White text color */
+    text-align: center;  /* Centered text */
+    padding: 10px 20px;  /* Padding for spacing */
+    font-size: 1rem;  /* Default font size */
+    position: relative;  /* To position elements if necessary */
+    width: 100%;  /* Full width */
+    bottom: 0;  /* Stick to the bottom of the page */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    .footer {
+        font-size: 0.9rem;  /* Slightly smaller font size */
+        padding: 8px 15px;  /* Reduced padding */
+    }
+}
+
+/* Responsive styling for medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .footer {
+        font-size: 1rem;  /* Medium font size */
+        padding: 10px 20px;  /* Default padding */
+    }
+}
+
+/* Additional responsiveness for very small screens */
+@media (max-width: 400px) {
+    .footer {
+        font-size: 0.8rem;  /* Smaller font size */
+        padding: 6px 10px;  /* Reduced padding */
+    }
+}
